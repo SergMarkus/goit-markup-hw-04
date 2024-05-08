@@ -1,0 +1,159 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  display: flex;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+/*Header*/
+
+.container.header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.menu-nav {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-black {
+  color: var(--navy-blue);
+}
+
+.logo-white {
+  color: var(--cloud);
+}
+
+.link.nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.address-links {
+  display: flex;
+  gap: 40px;
+}
+
+.link.contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  font-style: normal;
+}
+
+/*Section hero*/
+.section.hero {
+  background: var(--navy-blue);
+}
+
+.title-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+
+  border-radius: 4px;
+
+  width: 169px;
+  height: 56px;
+
+  background: var(--iris);
+}
+
+/* section feature */
+.section.feature {
+}
+
+.feature-card {
+  display: inline-block;
+}
