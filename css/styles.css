@@ -467,6 +467,11 @@ h3 {
 
 }
 
+.footer-social-links {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-social-item {
   width: 40px;
   height: 40px;
