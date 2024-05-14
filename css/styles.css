@@ -361,7 +361,7 @@ h3 {
 
 .social-item .link:hover,
 .social-item .link:focus {
-  background-color: var(--green);
+  background-color: var(--ocean);
 }
 
 .icon-social {
