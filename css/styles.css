@@ -333,7 +333,7 @@ h3 {
 }
 
 /* Portfolio */
-.project-cards {
+.project-cards.cards {
   flex-wrap: wrap;
   row-gap: 48px;
 }
